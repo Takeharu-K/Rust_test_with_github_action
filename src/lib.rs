@@ -8,7 +8,7 @@ mod tests {
 
 	#[test]
 	fn check_add() {
-		assert_eq!(6, add(4, 2));
+		assert_eq!(5, add(4, 2));
 	}
 
 	#[test]
