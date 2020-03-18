@@ -12,7 +12,13 @@ mod tests {
 	}
 
 	#[test]
-	fn other_test() {
+	fn other_test1() {
 		assert!(true);
+	}
+
+	#[test]
+	#[should_panic]
+	fn other_test2() {
+		assert!(false)
 	}
 }
